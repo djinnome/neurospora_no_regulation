@@ -1,0 +1,902 @@
+{
+    "compartments": {
+        "CYTOSOL": "",
+        "GLYOXYSOME": "",
+        "MITOCHONDRIA": ""
+    },
+    "genes": [],
+    "id": "M_neurospora_pentose_phos__46__glycolysis__46__tca__46__2",
+    "metabolites": [
+        {
+            "compartment": "CYTOSOL",
+            "id": "(S)-MALATE:CYTOSOL",
+            "name": "(S)-MALATE"
+        },
+        {
+            "compartment": "GLYOXYSOME",
+            "id": "(S)-MALATE:GLYOXYSOME",
+            "name": "(S)-MALATE"
+        },
+        {
+            "compartment": "MITOCHONDRIA",
+            "id": "(S)-MALATE:MITOCHONDRIA",
+            "name": "(S)-MALATE"
+        },
+        {
+            "compartment": "MITOCHONDRIA",
+            "id": "2-OXOGLUTARATE:MITOCHONDRIA",
+            "name": "2-OXOGLUTARATE"
+        },
+        {
+            "compartment": "CYTOSOL",
+            "id": "2-PHOSPHO-D-GLYCERATE:CYTOSOL",
+            "name": "2-PHOSPHO-D-GLYCERATE"
+        },
+        {
+            "compartment": "CYTOSOL",
+            "id": "3-PHOSPHO-D-GLYCERATE:CYTOSOL",
+            "name": "3-PHOSPHO-D-GLYCERATE"
+        },
+        {
+            "compartment": "CYTOSOL",
+            "id": "3-Phospho-D-glyceroyl_phosphate:CYTOSOL",
+            "name": "3-Phospho-D-glyceroyl_phosphate"
+        },
+        {
+            "compartment": "CYTOSOL",
+            "id": "6-PHOSPHO-D-GLUCONATE:CYTOSOL",
+            "name": "6-PHOSPHO-D-GLUCONATE"
+        },
+        {
+            "compartment": "MITOCHONDRIA",
+            "id": "ACETYL-COA:MITOCHONDRIA",
+            "name": "ACETYL-COA"
+        },
+        {
+            "compartment": "CYTOSOL",
+            "id": "ADP:CYTOSOL",
+            "name": "ADP"
+        },
+        {
+            "compartment": "MITOCHONDRIA",
+            "id": "ADP:MITOCHONDRIA",
+            "name": "ADP"
+        },
+        {
+            "compartment": "CYTOSOL",
+            "id": "ATP:CYTOSOL",
+            "name": "ATP"
+        },
+        {
+            "compartment": "MITOCHONDRIA",
+            "id": "ATP:MITOCHONDRIA",
+            "name": "ATP"
+        },
+        {
+            "compartment": "CYTOSOL",
+            "id": "BETA-D-GLUCOSE-6-PHOSPHATE:CYTOSOL",
+            "name": "BETA-D-GLUCOSE-6-PHOSPHATE"
+        },
+        {
+            "compartment": "CYTOSOL",
+            "id": "BETA-D-GLUCOSE:CYTOSOL",
+            "name": "BETA-D-GLUCOSE"
+        },
+        {
+            "compartment": "MITOCHONDRIA",
+            "id": "CITRATE:MITOCHONDRIA",
+            "name": "CITRATE"
+        },
+        {
+            "compartment": "CYTOSOL",
+            "id": "CO2:CYTOSOL",
+            "name": "CO2"
+        },
+        {
+            "compartment": "MITOCHONDRIA",
+            "id": "CO2:MITOCHONDRIA",
+            "name": "CO2"
+        },
+        {
+            "compartment": "GLYOXYSOME",
+            "id": "COA:GLYOXYSOME",
+            "name": "COA"
+        },
+        {
+            "compartment": "MITOCHONDRIA",
+            "id": "COA:MITOCHONDRIA",
+            "name": "COA"
+        },
+        {
+            "compartment": "CYTOSOL",
+            "id": "D-ERYTHROSE-4-PHOSPHATE:CYTOSOL",
+            "name": "D-ERYTHROSE-4-PHOSPHATE"
+        },
+        {
+            "compartment": "CYTOSOL",
+            "id": "D-FRUCTOSE_1,6-BISPHOSPHATE:CYTOSOL",
+            "name": "D-FRUCTOSE_1,6-BISPHOSPHATE"
+        },
+        {
+            "compartment": "CYTOSOL",
+            "id": "D-FRUCTOSE_6-PHOSPHATE:CYTOSOL",
+            "name": "D-FRUCTOSE_6-PHOSPHATE"
+        },
+        {
+            "compartment": "CYTOSOL",
+            "id": "D-GLYCERALDEHYDE-3-PHOSPHATE:CYTOSOL",
+            "name": "D-GLYCERALDEHYDE-3-PHOSPHATE"
+        },
+        {
+            "compartment": "CYTOSOL",
+            "id": "D-Glucono-1,5-lactone_6-phosphate:CYTOSOL",
+            "name": "D-Glucono-1,5-lactone_6-phosphate"
+        },
+        {
+            "compartment": "CYTOSOL",
+            "id": "D-RIBOSE-5-PHOSPHATE:CYTOSOL",
+            "name": "D-RIBOSE-5-PHOSPHATE"
+        },
+        {
+            "compartment": "CYTOSOL",
+            "id": "D-RIBULOSE-5-PHOSPHATE:CYTOSOL",
+            "name": "D-RIBULOSE-5-PHOSPHATE"
+        },
+        {
+            "compartment": "CYTOSOL",
+            "id": "D-XYLULOSE-5-PHOSPHATE:CYTOSOL",
+            "name": "D-XYLULOSE-5-PHOSPHATE"
+        },
+        {
+            "compartment": "CYTOSOL",
+            "id": "D-XYLULOSE:CYTOSOL",
+            "name": "D-XYLULOSE"
+        },
+        {
+            "compartment": "MITOCHONDRIA",
+            "id": "FUMARATE:MITOCHONDRIA",
+            "name": "FUMARATE"
+        },
+        {
+            "compartment": "CYTOSOL",
+            "id": "Glycerone_phosphate:CYTOSOL",
+            "name": "Glycerone_phosphate"
+        },
+        {
+            "compartment": "CYTOSOL",
+            "id": "H2O:CYTOSOL",
+            "name": "H2O"
+        },
+        {
+            "compartment": "GLYOXYSOME",
+            "id": "H2O:GLYOXYSOME",
+            "name": "H2O"
+        },
+        {
+            "compartment": "MITOCHONDRIA",
+            "id": "H2O:MITOCHONDRIA",
+            "name": "H2O"
+        },
+        {
+            "compartment": "MITOCHONDRIA",
+            "id": "ISOCITRATE:MITOCHONDRIA",
+            "name": "ISOCITRATE"
+        },
+        {
+            "compartment": "CYTOSOL",
+            "id": "NAD+:CYTOSOL",
+            "name": "NAD+"
+        },
+        {
+            "compartment": "MITOCHONDRIA",
+            "id": "NAD+:MITOCHONDRIA",
+            "name": "NAD+"
+        },
+        {
+            "compartment": "CYTOSOL",
+            "id": "NADH:CYTOSOL",
+            "name": "NADH"
+        },
+        {
+            "compartment": "MITOCHONDRIA",
+            "id": "NADH:MITOCHONDRIA",
+            "name": "NADH"
+        },
+        {
+            "compartment": "CYTOSOL",
+            "id": "NADP+:CYTOSOL",
+            "name": "NADP+"
+        },
+        {
+            "compartment": "MITOCHONDRIA",
+            "id": "NADP+:MITOCHONDRIA",
+            "name": "NADP+"
+        },
+        {
+            "compartment": "CYTOSOL",
+            "id": "NADPH:CYTOSOL",
+            "name": "NADPH"
+        },
+        {
+            "compartment": "MITOCHONDRIA",
+            "id": "NADPH:MITOCHONDRIA",
+            "name": "NADPH"
+        },
+        {
+            "compartment": "CYTOSOL",
+            "id": "ORTHOPHOSPHATE:CYTOSOL",
+            "name": "ORTHOPHOSPHATE"
+        },
+        {
+            "compartment": "CYTOSOL",
+            "id": "OXALOACETATE:CYTOSOL",
+            "name": "OXALOACETATE"
+        },
+        {
+            "compartment": "MITOCHONDRIA",
+            "id": "OXALOACETATE:MITOCHONDRIA",
+            "name": "OXALOACETATE"
+        },
+        {
+            "compartment": "CYTOSOL",
+            "id": "Orthophosphate:CYTOSOL",
+            "name": "Orthophosphate"
+        },
+        {
+            "compartment": "MITOCHONDRIA",
+            "id": "Orthophosphate:MITOCHONDRIA",
+            "name": "Orthophosphate"
+        },
+        {
+            "compartment": "CYTOSOL",
+            "id": "PHOSPHOENOLPYRUVATE:CYTOSOL",
+            "name": "PHOSPHOENOLPYRUVATE"
+        },
+        {
+            "compartment": "CYTOSOL",
+            "id": "PYRUVATE:CYTOSOL",
+            "name": "PYRUVATE"
+        },
+        {
+            "compartment": "MITOCHONDRIA",
+            "id": "PYRUVATE:MITOCHONDRIA",
+            "name": "PYRUVATE"
+        },
+        {
+            "compartment": "CYTOSOL",
+            "id": "SEDOHEPTULOSE_7-PHOSPHATE:CYTOSOL",
+            "name": "SEDOHEPTULOSE_7-PHOSPHATE"
+        },
+        {
+            "compartment": "MITOCHONDRIA",
+            "id": "SUCCINATE:MITOCHONDRIA",
+            "name": "SUCCINATE"
+        },
+        {
+            "compartment": "MITOCHONDRIA",
+            "id": "SUCCINYL-COA:MITOCHONDRIA",
+            "name": "SUCCINYL-COA"
+        },
+        {
+            "compartment": "CYTOSOL",
+            "id": "acetaldehyde:CYTOSOL",
+            "name": "acetaldehyde"
+        },
+        {
+            "compartment": "CYTOSOL",
+            "id": "acetate:CYTOSOL",
+            "name": "acetate"
+        },
+        {
+            "compartment": "GLYOXYSOME",
+            "id": "acetyl-CoA:GLYOXYSOME",
+            "name": "acetyl-CoA"
+        },
+        {
+            "compartment": "CYTOSOL",
+            "id": "ethanol:CYTOSOL",
+            "name": "ethanol"
+        },
+        {
+            "compartment": "GLYOXYSOME",
+            "id": "glyoxylate:GLYOXYSOME",
+            "name": "glyoxylate"
+        },
+        {
+            "compartment": "GLYOXYSOME",
+            "id": "isocitrate:GLYOXYSOME",
+            "name": "isocitrate"
+        },
+        {
+            "compartment": "CYTOSOL",
+            "id": "lactate:CYTOSOL",
+            "name": "lactate"
+        },
+        {
+            "compartment": "CYTOSOL",
+            "id": "orthophosphate:CYTOSOL",
+            "name": "orthophosphate"
+        },
+        {
+            "compartment": "CYTOSOL",
+            "id": "oxaloacetate:CYTOSOL",
+            "name": "oxaloacetate"
+        },
+        {
+            "compartment": "CYTOSOL",
+            "id": "phosphoenolpyruvate:CYTOSOL",
+            "name": "phosphoenolpyruvate"
+        },
+        {
+            "compartment": "CYTOSOL",
+            "id": "pyruvate:CYTOSOL",
+            "name": "pyruvate"
+        },
+        {
+            "compartment": "MITOCHONDRIA",
+            "id": "pyruvate:MITOCHONDRIA",
+            "name": "pyruvate"
+        },
+        {
+            "compartment": "MITOCHONDRIA",
+            "id": "redox1:MITOCHONDRIA",
+            "name": "redox1"
+        },
+        {
+            "compartment": "MITOCHONDRIA",
+            "id": "redox2:MITOCHONDRIA",
+            "name": "redox2"
+        },
+        {
+            "compartment": "GLYOXYSOME",
+            "id": "succinate:GLYOXYSOME",
+            "name": "succinate"
+        }
+    ],
+    "name": "neurospora_pentose_phos.glycolysis.tca.2",
+    "reactions": [
+        {
+            "gene_reaction_rule": "",
+            "id": "R_ACONTm",
+            "lower_bound": 0.0,
+            "metabolites": {
+                "CITRATE:MITOCHONDRIA": -1,
+                "ISOCITRATE:MITOCHONDRIA": 1
+            },
+            "name": "ACONTm",
+            "upper_bound": 1000.0
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "R_AKGDam",
+            "lower_bound": 0.0,
+            "metabolites": {
+                "2-OXOGLUTARATE:MITOCHONDRIA": -1,
+                "CO2:MITOCHONDRIA": 1,
+                "COA:MITOCHONDRIA": -1,
+                "NAD+:MITOCHONDRIA": -1,
+                "NADH:MITOCHONDRIA": 1,
+                "SUCCINYL-COA:MITOCHONDRIA": 1
+            },
+            "name": "AKGDam",
+            "upper_bound": 1000.0
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "R_ALCD2X_copy1",
+            "lower_bound": 0.0,
+            "metabolites": {
+                "NAD+:CYTOSOL": 1,
+                "NADH:CYTOSOL": -1,
+                "acetaldehyde:CYTOSOL": -1,
+                "ethanol:CYTOSOL": 1
+            },
+            "name": "ALCD2X_copy1",
+            "upper_bound": 1000.0
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "R_ALDD2y",
+            "lower_bound": 0.0,
+            "metabolites": {
+                "H2O:CYTOSOL": -1,
+                "NADP+:CYTOSOL": -1,
+                "NADPH:CYTOSOL": 1,
+                "acetaldehyde:CYTOSOL": -1,
+                "acetate:CYTOSOL": 1
+            },
+            "name": "ALDD2y",
+            "upper_bound": 1000.0
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "R_CSm",
+            "lower_bound": 0.0,
+            "metabolites": {
+                "ACETYL-COA:MITOCHONDRIA": -1,
+                "CITRATE:MITOCHONDRIA": 1,
+                "COA:MITOCHONDRIA": 1,
+                "H2O:MITOCHONDRIA": -1,
+                "OXALOACETATE:MITOCHONDRIA": -1
+            },
+            "name": "CSm",
+            "upper_bound": 1000.0
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "R_ENO",
+            "lower_bound": 0.0,
+            "metabolites": {
+                "2-PHOSPHO-D-GLYCERATE:CYTOSOL": -1,
+                "H2O:CYTOSOL": 1,
+                "PHOSPHOENOLPYRUVATE:CYTOSOL": 1
+            },
+            "name": "ENO",
+            "upper_bound": 1000.0
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "R_FBA",
+            "lower_bound": 0.0,
+            "metabolites": {
+                "D-FRUCTOSE_1,6-BISPHOSPHATE:CYTOSOL": -1,
+                "D-GLYCERALDEHYDE-3-PHOSPHATE:CYTOSOL": 1,
+                "Glycerone_phosphate:CYTOSOL": 1
+            },
+            "name": "FBA",
+            "upper_bound": 1000.0
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "R_FBP",
+            "lower_bound": 0.0,
+            "metabolites": {
+                "D-FRUCTOSE_1,6-BISPHOSPHATE:CYTOSOL": 1,
+                "D-FRUCTOSE_6-PHOSPHATE:CYTOSOL": -1,
+                "H2O:CYTOSOL": 1,
+                "Orthophosphate:CYTOSOL": -1
+            },
+            "name": "FBP",
+            "upper_bound": 1000.0
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "R_FUMm",
+            "lower_bound": 0.0,
+            "metabolites": {
+                "(S)-MALATE:MITOCHONDRIA": 1,
+                "FUMARATE:MITOCHONDRIA": -1,
+                "H2O:MITOCHONDRIA": -1
+            },
+            "name": "FUMm",
+            "upper_bound": 1000.0
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "R_G6PDH2r",
+            "lower_bound": 0.0,
+            "metabolites": {
+                "BETA-D-GLUCOSE-6-PHOSPHATE:CYTOSOL": -1,
+                "D-Glucono-1,5-lactone_6-phosphate:CYTOSOL": 1,
+                "NADP+:CYTOSOL": -1,
+                "NADPH:CYTOSOL": 1
+            },
+            "name": "G6PDH2r",
+            "upper_bound": 1000.0
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "R_GAPD",
+            "lower_bound": 0.0,
+            "metabolites": {
+                "3-Phospho-D-glyceroyl_phosphate:CYTOSOL": 1,
+                "D-GLYCERALDEHYDE-3-PHOSPHATE:CYTOSOL": -1,
+                "NAD+:CYTOSOL": -1,
+                "NADH:CYTOSOL": 1,
+                "ORTHOPHOSPHATE:CYTOSOL": -1
+            },
+            "name": "GAPD",
+            "upper_bound": 1000.0
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "R_GND",
+            "lower_bound": 0.0,
+            "metabolites": {
+                "6-PHOSPHO-D-GLUCONATE:CYTOSOL": 1,
+                "CO2:CYTOSOL": -1,
+                "D-RIBULOSE-5-PHOSPHATE:CYTOSOL": -1,
+                "NADP+:CYTOSOL": 1,
+                "NADPH:CYTOSOL": -1
+            },
+            "name": "GND",
+            "upper_bound": 1000.0
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "R_HEX1",
+            "lower_bound": 0.0,
+            "metabolites": {
+                "ADP:CYTOSOL": 1,
+                "ATP:CYTOSOL": -1,
+                "BETA-D-GLUCOSE-6-PHOSPHATE:CYTOSOL": 1,
+                "BETA-D-GLUCOSE:CYTOSOL": -1
+            },
+            "name": "HEX1",
+            "upper_bound": 1000.0
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "R_ICDHxm",
+            "lower_bound": 0.0,
+            "metabolites": {
+                "2-OXOGLUTARATE:MITOCHONDRIA": 1,
+                "CO2:MITOCHONDRIA": 1,
+                "ISOCITRATE:MITOCHONDRIA": -1,
+                "NAD+:MITOCHONDRIA": -1,
+                "NADH:MITOCHONDRIA": 1
+            },
+            "name": "ICDHxm",
+            "upper_bound": 1000.0
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "R_ICL",
+            "lower_bound": 0.0,
+            "metabolites": {
+                "glyoxylate:GLYOXYSOME": 1,
+                "isocitrate:GLYOXYSOME": -1,
+                "succinate:GLYOXYSOME": 1
+            },
+            "name": "ICL",
+            "upper_bound": 1000.0
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "R_LactateDehydrogenase",
+            "lower_bound": 0.0,
+            "metabolites": {
+                "NAD+:CYTOSOL": 1,
+                "NADH:CYTOSOL": -1,
+                "lactate:CYTOSOL": 1,
+                "pyruvate:CYTOSOL": -1
+            },
+            "name": "LactateDehydrogenase",
+            "upper_bound": 1000.0
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "R_MAS",
+            "lower_bound": 0.0,
+            "metabolites": {
+                "(S)-MALATE:GLYOXYSOME": 1,
+                "COA:GLYOXYSOME": 1,
+                "H2O:GLYOXYSOME": -1,
+                "acetyl-CoA:GLYOXYSOME": -1,
+                "glyoxylate:GLYOXYSOME": -1
+            },
+            "name": "MAS",
+            "upper_bound": 1000.0
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "R_MDH",
+            "lower_bound": 0.0,
+            "metabolites": {
+                "(S)-MALATE:CYTOSOL": -1,
+                "NAD+:CYTOSOL": -1,
+                "NADH:CYTOSOL": 1,
+                "OXALOACETATE:CYTOSOL": 1
+            },
+            "name": "MDH",
+            "upper_bound": 1000.0
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "R_MDHm",
+            "lower_bound": 0.0,
+            "metabolites": {
+                "(S)-MALATE:MITOCHONDRIA": -1,
+                "NAD+:MITOCHONDRIA": -1,
+                "NADH:MITOCHONDRIA": 1,
+                "OXALOACETATE:MITOCHONDRIA": 1
+            },
+            "name": "MDHm",
+            "upper_bound": 1000.0
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "R_ME1m",
+            "lower_bound": 0.0,
+            "metabolites": {
+                "(S)-MALATE:MITOCHONDRIA": -1,
+                "CO2:MITOCHONDRIA": 1,
+                "NAD+:MITOCHONDRIA": -1,
+                "NADH:MITOCHONDRIA": 1,
+                "pyruvate:MITOCHONDRIA": 1
+            },
+            "name": "ME1m",
+            "upper_bound": 1000.0
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "R_ME2m",
+            "lower_bound": 0.0,
+            "metabolites": {
+                "(S)-MALATE:MITOCHONDRIA": -1,
+                "CO2:MITOCHONDRIA": 1,
+                "NADP+:MITOCHONDRIA": -1,
+                "NADPH:MITOCHONDRIA": 1,
+                "PYRUVATE:MITOCHONDRIA": 1
+            },
+            "name": "ME2m",
+            "upper_bound": 1000.0
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "R_PDHm",
+            "lower_bound": 0.0,
+            "metabolites": {
+                "ACETYL-COA:MITOCHONDRIA": 1,
+                "CO2:MITOCHONDRIA": 1,
+                "COA:MITOCHONDRIA": -1,
+                "NAD+:MITOCHONDRIA": -1,
+                "NADH:MITOCHONDRIA": 1,
+                "PYRUVATE:MITOCHONDRIA": -1
+            },
+            "name": "PDHm",
+            "upper_bound": 1000.0
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "R_PEP_Carboxylase",
+            "lower_bound": 0.0,
+            "metabolites": {
+                "CO2:CYTOSOL": 1,
+                "H2O:CYTOSOL": 1,
+                "orthophosphate:CYTOSOL": -1,
+                "oxaloacetate:CYTOSOL": -1,
+                "phosphoenolpyruvate:CYTOSOL": 1
+            },
+            "name": "PEP_Carboxylase",
+            "upper_bound": 1000.0
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "R_PFK",
+            "lower_bound": 0.0,
+            "metabolites": {
+                "ADP:CYTOSOL": 1,
+                "ATP:CYTOSOL": -1,
+                "D-FRUCTOSE_1,6-BISPHOSPHATE:CYTOSOL": 1,
+                "D-FRUCTOSE_6-PHOSPHATE:CYTOSOL": -1
+            },
+            "name": "PFK",
+            "upper_bound": 1000.0
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "R_PGI",
+            "lower_bound": 0.0,
+            "metabolites": {
+                "BETA-D-GLUCOSE-6-PHOSPHATE:CYTOSOL": -1,
+                "D-FRUCTOSE_6-PHOSPHATE:CYTOSOL": 1
+            },
+            "name": "PGI",
+            "upper_bound": 1000.0
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "R_PGK",
+            "lower_bound": 0.0,
+            "metabolites": {
+                "3-PHOSPHO-D-GLYCERATE:CYTOSOL": 1,
+                "3-Phospho-D-glyceroyl_phosphate:CYTOSOL": -1,
+                "ADP:CYTOSOL": -1,
+                "ATP:CYTOSOL": 1
+            },
+            "name": "PGK",
+            "upper_bound": 1000.0
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "R_PGL",
+            "lower_bound": 0.0,
+            "metabolites": {
+                "6-PHOSPHO-D-GLUCONATE:CYTOSOL": -1,
+                "D-Glucono-1,5-lactone_6-phosphate:CYTOSOL": 1,
+                "H2O:CYTOSOL": 1
+            },
+            "name": "PGL",
+            "upper_bound": 1000.0
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "R_PGM",
+            "lower_bound": 0.0,
+            "metabolites": {
+                "2-PHOSPHO-D-GLYCERATE:CYTOSOL": 1,
+                "3-PHOSPHO-D-GLYCERATE:CYTOSOL": -1
+            },
+            "name": "PGM",
+            "upper_bound": 1000.0
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "R_PPCK",
+            "lower_bound": 0.0,
+            "metabolites": {
+                "ADP:CYTOSOL": 1,
+                "ATP:CYTOSOL": -1,
+                "CO2:CYTOSOL": 1,
+                "oxaloacetate:CYTOSOL": -1,
+                "phosphoenolpyruvate:CYTOSOL": 1
+            },
+            "name": "PPCK",
+            "upper_bound": 1000.0
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "R_PYK",
+            "lower_bound": 0.0,
+            "metabolites": {
+                "ADP:CYTOSOL": -1,
+                "ATP:CYTOSOL": 1,
+                "PHOSPHOENOLPYRUVATE:CYTOSOL": -1,
+                "PYRUVATE:CYTOSOL": 1
+            },
+            "name": "PYK",
+            "upper_bound": 1000.0
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "R_PYK_org",
+            "lower_bound": 0.0,
+            "metabolites": {
+                "ADP:CYTOSOL": -1,
+                "ATP:CYTOSOL": 1,
+                "PHOSPHOENOLPYRUVATE:CYTOSOL": -1,
+                "PYRUVATE:CYTOSOL": 1
+            },
+            "name": "PYK_org",
+            "upper_bound": 1000.0
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "R_PYRDC",
+            "lower_bound": 0.0,
+            "metabolites": {
+                "CO2:CYTOSOL": 1,
+                "acetaldehyde:CYTOSOL": 1,
+                "pyruvate:CYTOSOL": -1
+            },
+            "name": "PYRDC",
+            "upper_bound": 1000.0
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "R_PYRt2m",
+            "lower_bound": 0.0,
+            "metabolites": {
+                "PYRUVATE:CYTOSOL": -1,
+                "PYRUVATE:MITOCHONDRIA": 1
+            },
+            "name": "PYRt2m",
+            "upper_bound": 1000.0
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "R_RPE",
+            "lower_bound": 0.0,
+            "metabolites": {
+                "D-RIBULOSE-5-PHOSPHATE:CYTOSOL": 1,
+                "D-XYLULOSE-5-PHOSPHATE:CYTOSOL": -1
+            },
+            "name": "RPE",
+            "upper_bound": 1000.0
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "R_RPI",
+            "lower_bound": 0.0,
+            "metabolites": {
+                "D-RIBOSE-5-PHOSPHATE:CYTOSOL": -1,
+                "D-RIBULOSE-5-PHOSPHATE:CYTOSOL": 1
+            },
+            "name": "RPI",
+            "upper_bound": 1000.0
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "R_SUCD1m",
+            "lower_bound": 0.0,
+            "metabolites": {
+                "FUMARATE:MITOCHONDRIA": 1,
+                "SUCCINATE:MITOCHONDRIA": -1,
+                "redox1:MITOCHONDRIA": -1,
+                "redox2:MITOCHONDRIA": 1
+            },
+            "name": "SUCD1m",
+            "upper_bound": 1000.0
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "R_SUCOASm",
+            "lower_bound": 0.0,
+            "metabolites": {
+                "ADP:MITOCHONDRIA": -1,
+                "ATP:MITOCHONDRIA": 1,
+                "COA:MITOCHONDRIA": 1,
+                "Orthophosphate:MITOCHONDRIA": -1,
+                "SUCCINATE:MITOCHONDRIA": 1,
+                "SUCCINYL-COA:MITOCHONDRIA": -1
+            },
+            "name": "SUCOASm",
+            "upper_bound": 1000.0
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "R_TALA",
+            "lower_bound": 0.0,
+            "metabolites": {
+                "D-ERYTHROSE-4-PHOSPHATE:CYTOSOL": 1,
+                "D-FRUCTOSE_6-PHOSPHATE:CYTOSOL": 1,
+                "D-GLYCERALDEHYDE-3-PHOSPHATE:CYTOSOL": -1,
+                "SEDOHEPTULOSE_7-PHOSPHATE:CYTOSOL": -1
+            },
+            "name": "TALA",
+            "upper_bound": 1000.0
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "R_TKT1",
+            "lower_bound": 0.0,
+            "metabolites": {
+                "D-GLYCERALDEHYDE-3-PHOSPHATE:CYTOSOL": -1,
+                "D-RIBOSE-5-PHOSPHATE:CYTOSOL": 1,
+                "D-XYLULOSE-5-PHOSPHATE:CYTOSOL": 1,
+                "SEDOHEPTULOSE_7-PHOSPHATE:CYTOSOL": -1
+            },
+            "name": "TKT1",
+            "upper_bound": 1000.0
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "R_TKT2",
+            "lower_bound": 0.0,
+            "metabolites": {
+                "D-ERYTHROSE-4-PHOSPHATE:CYTOSOL": 1,
+                "D-FRUCTOSE_6-PHOSPHATE:CYTOSOL": -1,
+                "D-GLYCERALDEHYDE-3-PHOSPHATE:CYTOSOL": -1,
+                "D-XYLULOSE-5-PHOSPHATE:CYTOSOL": 1
+            },
+            "name": "TKT2",
+            "upper_bound": 1000.0
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "R_TPI",
+            "lower_bound": 0.0,
+            "metabolites": {
+                "D-GLYCERALDEHYDE-3-PHOSPHATE:CYTOSOL": 1,
+                "Glycerone_phosphate:CYTOSOL": -1
+            },
+            "name": "TPI",
+            "upper_bound": 1000.0
+        },
+        {
+            "gene_reaction_rule": "",
+            "id": "R_Xylulokinase",
+            "lower_bound": 0.0,
+            "metabolites": {
+                "ADP:CYTOSOL": 1,
+                "ATP:CYTOSOL": -1,
+                "D-XYLULOSE-5-PHOSPHATE:CYTOSOL": 1,
+                "D-XYLULOSE:CYTOSOL": -1
+            },
+            "name": "Xylulokinase",
+            "upper_bound": 1000.0
+        }
+    ],
+    "version": "1"
+}

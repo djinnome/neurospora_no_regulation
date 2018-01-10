@@ -1,0 +1,551 @@
+
+Output from compute_molecule_dg0tfs.c:
+
+index of molecule in sorted_molecules 	molecule name	 deltaG0_tf(kJ/mol)
+0 	 (S)-MALATE 	 -682.859219 
+1 	 2-PHOSPHO-D-GLYCERATE 	 -1341.518794 
+2 	 3-PHOSPHO-D-GLYCERATE 	 -1347.416642 
+3 	 3-PHOSPHO-D-GLYCEROYL_PHOSPHATE 	 -2206.386288 
+4 	 6-PHOSPHO-D-GLUCONATE 	 -1572.040218 
+5 	 ACETALDEHYDE 	 23.603348 
+6 	 ACETATE 	 -248.062505 
+7 	 ADP 	 -1425.202960 
+8 	 ATP 	 -2292.311889 
+9 	 BETA-D-GLUCOSE 	 -424.575779 
+10 	 BETA-D-GLUCOSE-6-PHOSPHATE 	 -1314.306903 
+11 	 CO2 	 -386.000000 
+12 	 D-ERYTHROSE-4-PHOSPHATE 	 -1162.505409 
+13 	 D-FRUCTOSE_1,6-BISPHOSPHATE 	 -2206.160120 
+14 	 D-FRUCTOSE_6-PHOSPHATE 	 -1316.575034 
+15 	 D-GLUCONO-1,5-LACTONE_6-PHOSPHATE 	 -1376.918623 
+16 	 D-GLYCERALDEHYDE-3-PHOSPHATE 	 -1088.173908 
+17 	 D-RIBOSE-5-PHOSPHATE 	 -1233.075711 
+18 	 D-RIBULOSE-5-PHOSPHATE 	 -1232.615711 
+19 	 D-XYLULOSE 	 -339.641629 
+20 	 D-XYLULOSE-5-PHOSPHATE 	 -1237.546403 
+21 	 ETHANOL 	 62.265022 
+22 	 GLYCERONE_PHOSPHATE 	 -1095.833908 
+23 	 H2O 	 -155.888326 
+24 	 LACTATE 	 -309.675706 
+25 	 NAD+ 	 1056.224770 
+26 	 NADH 	 1117.434626 
+27 	 NADP+ 	 174.817983 
+28 	 NADPH 	 236.059864 
+29 	 ORTHOPHOSPHATE 	 -1059.302414 
+30 	 OXALOACETATE 	 -714.778162 
+31 	 PHOSPHOENOLPYRUVATE 	 -1189.043118 
+32 	 PYRUVATE 	 -351.014518 
+33 	 SEDOHEPTULOSE_7-PHOSPHATE 	 -1382.266026 
+34 	 (S)-MALATE 	 -682.859219 
+35 	 ACETYL-COA 	 1242.419298 
+36 	 COA 	 1293.472586 
+37 	 GLYOXYLATE 	 -428.646366 
+38 	 H2O 	 -155.888326 
+39 	 ISOCITRATE 	 -959.171607 
+40 	 SUCCINATE 	 -530.659392 
+41 	 (S)-MALATE 	 -682.859219 
+42 	 2-OXOGLUTARATE 	 -633.598443 
+43 	 ACETYL-COA 	 1242.419298 
+44 	 ADP 	 -1425.202960 
+45 	 ATP 	 -2292.311889 
+46 	 CITRATE 	 -965.819859 
+47 	 CO2 	 -386.000000 
+48 	 COA 	 1293.472586 
+49 	 FUMARATE 	 -523.359523 
+50 	 H2O 	 -155.888326 
+51 	 ISOCITRATE 	 -959.171607 
+52 	 NAD+ 	 1056.224770 
+53 	 NADH 	 1117.434626 
+54 	 NADP+ 	 174.817983 
+55 	 NADPH 	 236.059864 
+56 	 ORTHOPHOSPHATE 	 -1059.302414 
+57 	 OXALOACETATE 	 -714.778162 
+58 	 PYRUVATE 	 -351.014518 
+59 	 REDOX1 	 -523.359523 
+60 	 REDOX2 	 -530.659392 
+61 	 SUCCINATE 	 -530.659392 
+62 	 SUCCINYL-COA 	 953.010841 
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+Output from compute_reaction_dg0.c: 
+compute_reaction_dg0: number of reactions = 42
+reaction no. 0
+Number of reactants = 2
+Number of products = 3
+coefficient of molecule (S)-MALATE = -1 and dg0_tf = -682.859219 kJ/mol.
+coefficient of molecule NAD+ = -1 and dg0_tf = 1056.224770 kJ/mol.
+coefficient of molecule PYRUVATE = 1 and dg0_tf = -351.014518 kJ/mol.
+coefficient of molecule NADH = 1 and dg0_tf = 1117.434626 kJ/mol.
+coefficient of molecule CO2 = 1 and dg0_tf = -386.000000 kJ/mol.
+Computed reaction delta_g0 = 7.054557e+00
+reaction no. 1
+Number of reactants = 2
+Number of products = 3
+coefficient of molecule (S)-MALATE = -1 and dg0_tf = -682.859219 kJ/mol.
+coefficient of molecule NADP+ = -1 and dg0_tf = 174.817983 kJ/mol.
+coefficient of molecule PYRUVATE = 1 and dg0_tf = -351.014518 kJ/mol.
+coefficient of molecule NADPH = 1 and dg0_tf = 236.059864 kJ/mol.
+coefficient of molecule CO2 = 1 and dg0_tf = -386.000000 kJ/mol.
+Computed reaction delta_g0 = 7.086582e+00
+reaction no. 2
+Number of reactants = 3
+Number of products = 2
+coefficient of molecule OXALOACETATE = -1 and dg0_tf = -714.778162 kJ/mol.
+coefficient of molecule ACETYL-COA = -1 and dg0_tf = 1242.419298 kJ/mol.
+coefficient of molecule H2O = -1 and dg0_tf = -155.888326 kJ/mol.
+coefficient of molecule CITRATE = 1 and dg0_tf = -965.819859 kJ/mol.
+coefficient of molecule COA = 1 and dg0_tf = 1293.472586 kJ/mol.
+Computed reaction delta_g0 = -4.410008e+01
+reaction no. 3
+Number of reactants = 1
+Number of products = 1
+coefficient of molecule CITRATE = -1 and dg0_tf = -965.819859 kJ/mol.
+coefficient of molecule ISOCITRATE = 1 and dg0_tf = -959.171607 kJ/mol.
+Computed reaction delta_g0 = 6.648253e+00
+reaction no. 4
+Number of reactants = 2
+Number of products = 3
+coefficient of molecule ISOCITRATE = -1 and dg0_tf = -959.171607 kJ/mol.
+coefficient of molecule NAD+ = -1 and dg0_tf = 1056.224770 kJ/mol.
+coefficient of molecule 2-OXOGLUTARATE = 1 and dg0_tf = -633.598443 kJ/mol.
+coefficient of molecule NADH = 1 and dg0_tf = 1117.434626 kJ/mol.
+coefficient of molecule CO2 = 1 and dg0_tf = -386.000000 kJ/mol.
+Computed reaction delta_g0 = 7.830200e-01
+reaction no. 5
+Number of reactants = 3
+Number of products = 3
+coefficient of molecule 2-OXOGLUTARATE = -1 and dg0_tf = -633.598443 kJ/mol.
+coefficient of molecule COA = -1 and dg0_tf = 1293.472586 kJ/mol.
+coefficient of molecule NAD+ = -1 and dg0_tf = 1056.224770 kJ/mol.
+coefficient of molecule SUCCINYL-COA = 1 and dg0_tf = 953.010841 kJ/mol.
+coefficient of molecule CO2 = 1 and dg0_tf = -386.000000 kJ/mol.
+coefficient of molecule NADH = 1 and dg0_tf = 1117.434626 kJ/mol.
+Computed reaction delta_g0 = -3.165345e+01
+reaction no. 6
+Number of reactants = 3
+Number of products = 3
+coefficient of molecule SUCCINYL-COA = -1 and dg0_tf = 953.010841 kJ/mol.
+coefficient of molecule ADP = -1 and dg0_tf = -1425.202960 kJ/mol.
+coefficient of molecule ORTHOPHOSPHATE = -1 and dg0_tf = -1059.302414 kJ/mol.
+coefficient of molecule SUCCINATE = 1 and dg0_tf = -530.659392 kJ/mol.
+coefficient of molecule ATP = 1 and dg0_tf = -2292.311889 kJ/mol.
+coefficient of molecule COA = 1 and dg0_tf = 1293.472586 kJ/mol.
+Computed reaction delta_g0 = 1.995839e+00
+reaction no. 7
+Number of reactants = 2
+Number of products = 2
+coefficient of molecule SUCCINATE = -1 and dg0_tf = -530.659392 kJ/mol.
+coefficient of molecule REDOX1 = -1 and dg0_tf = -523.359523 kJ/mol.
+coefficient of molecule FUMARATE = 1 and dg0_tf = -523.359523 kJ/mol.
+coefficient of molecule REDOX2 = 1 and dg0_tf = -530.659392 kJ/mol.
+Computed reaction delta_g0 = 0.000000e+00
+reaction no. 8
+Number of reactants = 2
+Number of products = 1
+coefficient of molecule FUMARATE = -1 and dg0_tf = -523.359523 kJ/mol.
+coefficient of molecule H2O = -1 and dg0_tf = -155.888326 kJ/mol.
+coefficient of molecule (S)-MALATE = 1 and dg0_tf = -682.859219 kJ/mol.
+Computed reaction delta_g0 = -3.611371e+00
+reaction no. 9
+Number of reactants = 2
+Number of products = 2
+coefficient of molecule (S)-MALATE = -1 and dg0_tf = -682.859219 kJ/mol.
+coefficient of molecule NAD+ = -1 and dg0_tf = 1056.224770 kJ/mol.
+coefficient of molecule OXALOACETATE = 1 and dg0_tf = -714.778162 kJ/mol.
+coefficient of molecule NADH = 1 and dg0_tf = 1117.434626 kJ/mol.
+Computed reaction delta_g0 = 2.929091e+01
+reaction no. 10
+Number of reactants = 3
+Number of products = 2
+coefficient of molecule D-GLYCERALDEHYDE-3-PHOSPHATE = -1 and dg0_tf = -1088.173908 kJ/mol.
+coefficient of molecule ORTHOPHOSPHATE = -1 and dg0_tf = -1059.302414 kJ/mol.
+coefficient of molecule NAD+ = -1 and dg0_tf = 1056.224770 kJ/mol.
+coefficient of molecule 3-PHOSPHO-D-GLYCEROYL_PHOSPHATE = 1 and dg0_tf = -2206.386288 kJ/mol.
+coefficient of molecule NADH = 1 and dg0_tf = 1117.434626 kJ/mol.
+Computed reaction delta_g0 = 2.299890e+00
+reaction no. 11
+Number of reactants = 2
+Number of products = 2
+coefficient of molecule 3-PHOSPHO-D-GLYCEROYL_PHOSPHATE = -1 and dg0_tf = -2206.386288 kJ/mol.
+coefficient of molecule ADP = -1 and dg0_tf = -1425.202960 kJ/mol.
+coefficient of molecule 3-PHOSPHO-D-GLYCERATE = 1 and dg0_tf = -1347.416642 kJ/mol.
+coefficient of molecule ATP = 1 and dg0_tf = -2292.311889 kJ/mol.
+Computed reaction delta_g0 = -8.139283e+00
+reaction no. 12
+Number of reactants = 1
+Number of products = 1
+coefficient of molecule GLYCERONE_PHOSPHATE = -1 and dg0_tf = -1095.833908 kJ/mol.
+coefficient of molecule D-GLYCERALDEHYDE-3-PHOSPHATE = 1 and dg0_tf = -1088.173908 kJ/mol.
+Computed reaction delta_g0 = 7.660000e+00
+reaction no. 13
+Number of reactants = 2
+Number of products = 2
+coefficient of molecule (S)-MALATE = -1 and dg0_tf = -682.859219 kJ/mol.
+coefficient of molecule NAD+ = -1 and dg0_tf = 1056.224770 kJ/mol.
+coefficient of molecule OXALOACETATE = 1 and dg0_tf = -714.778162 kJ/mol.
+coefficient of molecule NADH = 1 and dg0_tf = 1117.434626 kJ/mol.
+Computed reaction delta_g0 = 2.929091e+01
+reaction no. 14
+Number of reactants = 2
+Number of products = 3
+coefficient of molecule OXALOACETATE = -1 and dg0_tf = -714.778162 kJ/mol.
+coefficient of molecule ORTHOPHOSPHATE = -1 and dg0_tf = -1059.302414 kJ/mol.
+coefficient of molecule PHOSPHOENOLPYRUVATE = 1 and dg0_tf = -1189.043118 kJ/mol.
+coefficient of molecule CO2 = 1 and dg0_tf = -386.000000 kJ/mol.
+coefficient of molecule H2O = 1 and dg0_tf = -155.888326 kJ/mol.
+Computed reaction delta_g0 = 4.314913e+01
+reaction no. 15
+Number of reactants = 2
+Number of products = 3
+coefficient of molecule OXALOACETATE = -1 and dg0_tf = -714.778162 kJ/mol.
+coefficient of molecule ATP = -1 and dg0_tf = -2292.311889 kJ/mol.
+coefficient of molecule PHOSPHOENOLPYRUVATE = 1 and dg0_tf = -1189.043118 kJ/mol.
+coefficient of molecule ADP = 1 and dg0_tf = -1425.202960 kJ/mol.
+coefficient of molecule CO2 = 1 and dg0_tf = -386.000000 kJ/mol.
+Computed reaction delta_g0 = 6.843973e+00
+reaction no. 16
+Number of reactants = 1
+Number of products = 2
+coefficient of molecule D-FRUCTOSE_1,6-BISPHOSPHATE = -1 and dg0_tf = -2206.160120 kJ/mol.
+coefficient of molecule GLYCERONE_PHOSPHATE = 1 and dg0_tf = -1095.833908 kJ/mol.
+coefficient of molecule D-GLYCERALDEHYDE-3-PHOSPHATE = 1 and dg0_tf = -1088.173908 kJ/mol.
+Computed reaction delta_g0 = 2.215230e+01
+reaction no. 17
+Number of reactants = 2
+Number of products = 2
+coefficient of molecule D-FRUCTOSE_6-PHOSPHATE = -1 and dg0_tf = -1316.575034 kJ/mol.
+coefficient of molecule ORTHOPHOSPHATE = -1 and dg0_tf = -1059.302414 kJ/mol.
+coefficient of molecule H2O = 1 and dg0_tf = -155.888326 kJ/mol.
+coefficient of molecule D-FRUCTOSE_1,6-BISPHOSPHATE = 1 and dg0_tf = -2206.160120 kJ/mol.
+Computed reaction delta_g0 = 1.382900e+01
+reaction no. 18
+Number of reactants = 2
+Number of products = 2
+coefficient of molecule D-FRUCTOSE_6-PHOSPHATE = -1 and dg0_tf = -1316.575034 kJ/mol.
+coefficient of molecule D-GLYCERALDEHYDE-3-PHOSPHATE = -1 and dg0_tf = -1088.173908 kJ/mol.
+coefficient of molecule D-ERYTHROSE-4-PHOSPHATE = 1 and dg0_tf = -1162.505409 kJ/mol.
+coefficient of molecule D-XYLULOSE-5-PHOSPHATE = 1 and dg0_tf = -1237.546403 kJ/mol.
+Computed reaction delta_g0 = 4.697130e+00
+reaction no. 19
+Number of reactants = 1
+Number of products = 1
+coefficient of molecule D-XYLULOSE-5-PHOSPHATE = -1 and dg0_tf = -1237.546403 kJ/mol.
+coefficient of molecule D-RIBULOSE-5-PHOSPHATE = 1 and dg0_tf = -1232.615711 kJ/mol.
+Computed reaction delta_g0 = 4.930692e+00
+reaction no. 20
+Number of reactants = 2
+Number of products = 2
+coefficient of molecule D-XYLULOSE = -1 and dg0_tf = -339.641629 kJ/mol.
+coefficient of molecule ATP = -1 and dg0_tf = -2292.311889 kJ/mol.
+coefficient of molecule D-XYLULOSE-5-PHOSPHATE = 1 and dg0_tf = -1237.546403 kJ/mol.
+coefficient of molecule ADP = 1 and dg0_tf = -1425.202960 kJ/mol.
+Computed reaction delta_g0 = -3.079584e+01
+reaction no. 21
+Number of reactants = 2
+Number of products = 2
+coefficient of molecule ADP = -1 and dg0_tf = -1425.202960 kJ/mol.
+coefficient of molecule PHOSPHOENOLPYRUVATE = -1 and dg0_tf = -1189.043118 kJ/mol.
+coefficient of molecule PYRUVATE = 1 and dg0_tf = -351.014518 kJ/mol.
+coefficient of molecule ATP = 1 and dg0_tf = -2292.311889 kJ/mol.
+Computed reaction delta_g0 = -2.908033e+01
+reaction no. 22
+Number of reactants = 2
+Number of products = 2
+coefficient of molecule ADP = -1 and dg0_tf = -1425.202960 kJ/mol.
+coefficient of molecule PHOSPHOENOLPYRUVATE = -1 and dg0_tf = -1189.043118 kJ/mol.
+coefficient of molecule PYRUVATE = 1 and dg0_tf = -351.014518 kJ/mol.
+coefficient of molecule ATP = 1 and dg0_tf = -2292.311889 kJ/mol.
+Computed reaction delta_g0 = -2.908033e+01
+reaction no. 23
+Number of reactants = 1
+Number of products = 1
+coefficient of molecule D-RIBOSE-5-PHOSPHATE = -1 and dg0_tf = -1233.075711 kJ/mol.
+coefficient of molecule D-RIBULOSE-5-PHOSPHATE = 1 and dg0_tf = -1232.615711 kJ/mol.
+Computed reaction delta_g0 = 4.600000e-01
+reaction no. 24
+Number of reactants = 2
+Number of products = 2
+coefficient of molecule SEDOHEPTULOSE_7-PHOSPHATE = -1 and dg0_tf = -1382.266026 kJ/mol.
+coefficient of molecule D-GLYCERALDEHYDE-3-PHOSPHATE = -1 and dg0_tf = -1088.173908 kJ/mol.
+coefficient of molecule D-RIBOSE-5-PHOSPHATE = 1 and dg0_tf = -1233.075711 kJ/mol.
+coefficient of molecule D-XYLULOSE-5-PHOSPHATE = 1 and dg0_tf = -1237.546403 kJ/mol.
+Computed reaction delta_g0 = -1.821793e-01
+reaction no. 25
+Number of reactants = 2
+Number of products = 2
+coefficient of molecule D-GLYCERALDEHYDE-3-PHOSPHATE = -1 and dg0_tf = -1088.173908 kJ/mol.
+coefficient of molecule SEDOHEPTULOSE_7-PHOSPHATE = -1 and dg0_tf = -1382.266026 kJ/mol.
+coefficient of molecule D-FRUCTOSE_6-PHOSPHATE = 1 and dg0_tf = -1316.575034 kJ/mol.
+coefficient of molecule D-ERYTHROSE-4-PHOSPHATE = 1 and dg0_tf = -1162.505409 kJ/mol.
+Computed reaction delta_g0 = -8.640509e+00
+reaction no. 26
+Number of reactants = 1
+Number of products = 1
+coefficient of molecule 3-PHOSPHO-D-GLYCERATE = -1 and dg0_tf = -1347.416642 kJ/mol.
+coefficient of molecule 2-PHOSPHO-D-GLYCERATE = 1 and dg0_tf = -1341.518794 kJ/mol.
+Computed reaction delta_g0 = 5.897848e+00
+reaction no. 27
+Number of reactants = 1
+Number of products = 2
+coefficient of molecule 2-PHOSPHO-D-GLYCERATE = -1 and dg0_tf = -1341.518794 kJ/mol.
+coefficient of molecule PHOSPHOENOLPYRUVATE = 1 and dg0_tf = -1189.043118 kJ/mol.
+coefficient of molecule H2O = 1 and dg0_tf = -155.888326 kJ/mol.
+Computed reaction delta_g0 = -3.412649e+00
+reaction no. 28
+Number of reactants = 3
+Number of products = 2
+coefficient of molecule NADPH = -1 and dg0_tf = 236.059864 kJ/mol.
+coefficient of molecule D-RIBULOSE-5-PHOSPHATE = -1 and dg0_tf = -1232.615711 kJ/mol.
+coefficient of molecule CO2 = -1 and dg0_tf = -386.000000 kJ/mol.
+coefficient of molecule NADP+ = 1 and dg0_tf = 174.817983 kJ/mol.
+coefficient of molecule 6-PHOSPHO-D-GLUCONATE = 1 and dg0_tf = -1572.040218 kJ/mol.
+Computed reaction delta_g0 = -1.466639e+01
+reaction no. 29
+Number of reactants = 1
+Number of products = 2
+coefficient of molecule 6-PHOSPHO-D-GLUCONATE = -1 and dg0_tf = -1572.040218 kJ/mol.
+coefficient of molecule D-GLUCONO-1,5-LACTONE_6-PHOSPHATE = 1 and dg0_tf = -1376.918623 kJ/mol.
+coefficient of molecule H2O = 1 and dg0_tf = -155.888326 kJ/mol.
+Computed reaction delta_g0 = 3.923327e+01
+reaction no. 30
+Number of reactants = 2
+Number of products = 2
+coefficient of molecule BETA-D-GLUCOSE = -1 and dg0_tf = -424.575779 kJ/mol.
+coefficient of molecule ATP = -1 and dg0_tf = -2292.311889 kJ/mol.
+coefficient of molecule BETA-D-GLUCOSE-6-PHOSPHATE = 1 and dg0_tf = -1314.306903 kJ/mol.
+coefficient of molecule ADP = 1 and dg0_tf = -1425.202960 kJ/mol.
+Computed reaction delta_g0 = -2.262219e+01
+reaction no. 31
+Number of reactants = 1
+Number of products = 1
+coefficient of molecule BETA-D-GLUCOSE-6-PHOSPHATE = -1 and dg0_tf = -1314.306903 kJ/mol.
+coefficient of molecule D-FRUCTOSE_6-PHOSPHATE = 1 and dg0_tf = -1316.575034 kJ/mol.
+Computed reaction delta_g0 = -2.268132e+00
+reaction no. 32
+Number of reactants = 2
+Number of products = 2
+coefficient of molecule BETA-D-GLUCOSE-6-PHOSPHATE = -1 and dg0_tf = -1314.306903 kJ/mol.
+coefficient of molecule NADP+ = -1 and dg0_tf = 174.817983 kJ/mol.
+coefficient of molecule D-GLUCONO-1,5-LACTONE_6-PHOSPHATE = 1 and dg0_tf = -1376.918623 kJ/mol.
+coefficient of molecule NADPH = 1 and dg0_tf = 236.059864 kJ/mol.
+Computed reaction delta_g0 = -1.369839e+00
+reaction no. 33
+Number of reactants = 2
+Number of products = 2
+coefficient of molecule D-FRUCTOSE_6-PHOSPHATE = -1 and dg0_tf = -1316.575034 kJ/mol.
+coefficient of molecule ATP = -1 and dg0_tf = -2292.311889 kJ/mol.
+coefficient of molecule ADP = 1 and dg0_tf = -1425.202960 kJ/mol.
+coefficient of molecule D-FRUCTOSE_1,6-BISPHOSPHATE = 1 and dg0_tf = -2206.160120 kJ/mol.
+Computed reaction delta_g0 = -2.247616e+01
+reaction no. 34
+Number of reactants = 1
+Number of products = 1
+reaction no. 35
+Number of reactants = 3
+Number of products = 3
+coefficient of molecule COA = -1 and dg0_tf = 1293.472586 kJ/mol.
+coefficient of molecule NAD+ = -1 and dg0_tf = 1056.224770 kJ/mol.
+coefficient of molecule PYRUVATE = -1 and dg0_tf = -351.014518 kJ/mol.
+coefficient of molecule ACETYL-COA = 1 and dg0_tf = 1242.419298 kJ/mol.
+coefficient of molecule CO2 = 1 and dg0_tf = -386.000000 kJ/mol.
+coefficient of molecule NADH = 1 and dg0_tf = 1117.434626 kJ/mol.
+Computed reaction delta_g0 = -2.482891e+01
+reaction no. 36
+Number of reactants = 1
+Number of products = 2
+coefficient of molecule ISOCITRATE = -1 and dg0_tf = -959.171607 kJ/mol.
+coefficient of molecule GLYOXYLATE = 1 and dg0_tf = -428.646366 kJ/mol.
+coefficient of molecule SUCCINATE = 1 and dg0_tf = -530.659392 kJ/mol.
+Computed reaction delta_g0 = -1.341511e-01
+reaction no. 37
+Number of reactants = 3
+Number of products = 2
+coefficient of molecule ACETYL-COA = -1 and dg0_tf = 1242.419298 kJ/mol.
+coefficient of molecule GLYOXYLATE = -1 and dg0_tf = -428.646366 kJ/mol.
+coefficient of molecule H2O = -1 and dg0_tf = -155.888326 kJ/mol.
+coefficient of molecule (S)-MALATE = 1 and dg0_tf = -682.859219 kJ/mol.
+coefficient of molecule COA = 1 and dg0_tf = 1293.472586 kJ/mol.
+Computed reaction delta_g0 = -4.727124e+01
+reaction no. 38
+Number of reactants = 1
+Number of products = 2
+coefficient of molecule PYRUVATE = -1 and dg0_tf = -351.014518 kJ/mol.
+coefficient of molecule ACETALDEHYDE = 1 and dg0_tf = 23.603348 kJ/mol.
+coefficient of molecule CO2 = 1 and dg0_tf = -386.000000 kJ/mol.
+Computed reaction delta_g0 = -1.138213e+01
+reaction no. 39
+Number of reactants = 3
+Number of products = 2
+coefficient of molecule ACETALDEHYDE = -1 and dg0_tf = 23.603348 kJ/mol.
+coefficient of molecule NADP+ = -1 and dg0_tf = 174.817983 kJ/mol.
+coefficient of molecule H2O = -1 and dg0_tf = -155.888326 kJ/mol.
+coefficient of molecule ACETATE = 1 and dg0_tf = -248.062505 kJ/mol.
+coefficient of molecule NADPH = 1 and dg0_tf = 236.059864 kJ/mol.
+Computed reaction delta_g0 = -5.453565e+01
+reaction no. 40
+Number of reactants = 2
+Number of products = 2
+coefficient of molecule ACETALDEHYDE = -1 and dg0_tf = 23.603348 kJ/mol.
+coefficient of molecule NADH = -1 and dg0_tf = 1117.434626 kJ/mol.
+coefficient of molecule ETHANOL = 1 and dg0_tf = 62.265022 kJ/mol.
+coefficient of molecule NAD+ = 1 and dg0_tf = 1056.224770 kJ/mol.
+Computed reaction delta_g0 = -2.254818e+01
+reaction no. 41
+Number of reactants = 2
+Number of products = 2
+coefficient of molecule PYRUVATE = -1 and dg0_tf = -351.014518 kJ/mol.
+coefficient of molecule NADH = -1 and dg0_tf = 1117.434626 kJ/mol.
+coefficient of molecule LACTATE = 1 and dg0_tf = -309.675706 kJ/mol.
+coefficient of molecule NAD+ = 1 and dg0_tf = 1056.224770 kJ/mol.
+Computed reaction delta_g0 = -1.987104e+01
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+Output from compute_ke
+dg0s[0] = 7.054557e+00, ke[0] = 5.807996e-02
+dg0s[1] = 7.086582e+00, ke[1] = 5.733443e-02
+dg0s[2] = -4.410008e+01, ke[2] = 5.326355e+07
+dg0s[3] = 6.648253e+00, ke[3] = 6.842451e-02
+dg0s[4] = 7.830200e-01, ke[4] = 7.291438e-01
+dg0s[5] = -3.165345e+01, ke[5] = 3.513601e+05
+dg0s[6] = 1.995839e+00, ke[6] = 4.470177e-01
+dg0s[7] = 0.000000e+00, ke[7] = 1.000000e+00
+dg0s[8] = -3.611371e+00, ke[8] = 4.292596e+00
+dg0s[9] = 2.929091e+01, ke[9] = 7.381907e-06
+dg0s[10] = 2.299890e+00, ke[10] = 3.954160e-01
+dg0s[11] = -8.139283e+00, ke[11] = 2.666982e+01
+dg0s[12] = 7.660000e+00, ke[12] = 4.549371e-02
+dg0s[13] = 2.929091e+01, ke[13] = 7.381907e-06
+dg0s[14] = 4.314913e+01, ke[14] = 2.755360e-08
+dg0s[15] = 6.843973e+00, ke[15] = 6.322968e-02
+dg0s[16] = 2.215230e+01, ke[16] = 1.314826e-04
+dg0s[17] = 1.382900e+01, ke[17] = 3.776842e-03
+dg0s[18] = 4.697130e+00, ke[18] = 1.503324e-01
+dg0s[19] = 4.930692e+00, ke[19] = 1.368145e-01
+dg0s[20] = -3.079584e+01, ke[20] = 2.485987e+05
+dg0s[21] = -2.908033e+01, ke[21] = 1.244333e+05
+dg0s[22] = -2.908033e+01, ke[22] = 1.244333e+05
+dg0s[23] = 4.600000e-01, ke[23] = 8.306288e-01
+dg0s[24] = -1.821793e-01, ke[24] = 1.076262e+00
+dg0s[25] = -8.640509e+00, ke[25] = 3.264645e+01
+dg0s[26] = 5.897848e+00, ke[26] = 9.261562e-02
+dg0s[27] = -3.412649e+00, ke[27] = 3.961900e+00
+dg0s[28] = -1.466639e+01, ke[28] = 3.711786e+02
+dg0s[29] = 3.923327e+01, ke[29] = 1.337354e-07
+dg0s[30] = -2.262219e+01, ke[30] = 9.193007e+03
+dg0s[31] = -2.268132e+00, ke[31] = 2.496787e+00
+dg0s[32] = -1.369839e+00, ke[32] = 1.737796e+00
+dg0s[33] = -2.247616e+01, ke[33] = 8.667054e+03
+dg0s[34] = -5.940000e+00, ke[34] = 1.098249e+01
+dg0s[35] = -2.482891e+01, ke[35] = 2.239131e+04
+dg0s[36] = -1.341511e-01, ke[36] = 1.055610e+00
+dg0s[37] = -4.727124e+01, ke[37] = 1.914360e+08
+dg0s[38] = -1.138213e+01, ke[38] = 9.866757e+01
+dg0s[39] = -5.453565e+01, ke[39] = 3.587265e+09
+dg0s[40] = -2.254818e+01, ke[40] = 8.922578e+03
+dg0s[41] = -1.987104e+01, ke[41] = 3.030051e+03
+Output from compute_kss.c: 
+compute_kss: number of reactions = 42
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+state->params_file    	       = neurospora_pentose_phos.glycolysis.tca_no_reg.in
+state->reaction_file  	       = neurospora_pentose_phos.glycolysis.tca.2.dat
+state->init_conc_file 	       = neurospora_pentose_phos.glycolysis.tca.2_no_reg.rstrt
+state->input_dir      	       = ./
+state->output_file    	       = neurospora_pentose_phos.glycolysis.tca.2_no_reg.out
+state->log_file      	       = neurospora_pentose_phos.glycolysis.tca.2_no_reg.log
+state->counts_out_file        = neurospora_pentose_phos.glycolysis.tca.2_no_reg.count
+state->concs_out_file         = neurospora_pentose_phos.glycolysis.tca.2_no_reg.concs
+state->rxn_lklhd_file         = neurospora_pentose_phos.glycolysis.tca.2_no_reg.lklhd
+state->free_energy_file       = neurospora_pentose_phos.glycolysis.tca.2_no_reg.fe
+state->restart_file           = neurospora_pentose_phos.glycolysis.tca.2_no_reg.rstrt
+state->rxn_view_file          = neurospora_pentose_phos.glycolysis.tca.2_no_reg.view
+state->bndry_flux_file        = neurospora_pentose_phos.glycolysis.tca.2_no_reg.flux
+state->pseudoisomer_file      = ./pseudoisomer_dg0f.txt
+state->compartment_file       = 
+state->sbml_file              = 
+state->ms2js_file             = ./modelseed_2_json.srt
+state->kg2js_file             = 
+state->rxn_echo_file          = neurospora_pentose_phos.glycolysis.tca.2_no_reg.echo
+state->rxn_mat_file           = neurospora_pentose_phos.glycolysis.tca.2_no_reg.mat
+state->dg0ke_file             = neurospora_pentose_phos.glycolysis.tca.2_no_reg.dg0ke
+state->dictionary_file        = neurospora_pentose_phos.glycolysis.tca.2_no_reg.dict
+state->ode_concs_file         = neurospora_pentose_phos.glycolysis.tca.2_no_reg.ode_concs
+state->ode_lklhd_file         = neurospora_pentose_phos.glycolysis.tca.2_no_reg.ode_lklhd
+state->ode_dconcs_file        = neurospora_pentose_phos.glycolysis.tca.2_no_reg.ode_dconcs
+state->ode_bflux_file         = neurospora_pentose_phos.glycolysis.tca.2_no_reg.ode_bflux
+state->net_lklhd_file         = neurospora_pentose_phos.glycolysis.tca.2_no_reg.nlklhd
+state->nl_bndry_flx_file      = neurospora_pentose_phos.glycolysis.tca.2_no_reg.nl_flux
+state->solvent_string         = H2O
+state->output_dir     	       = ./
+state->align_len              = 64
+state->max_filename_len       = 128
+state->max_param_line_len     = 128
+state->warmup_steps           = 0
+state->record_steps           = 0
+state->free_energy_format     = 0
+state->rxn_view_freq          = 100
+state->count_view_freq        = 100
+state->lklhd_view_freq        = 100
+state->fe_view_freq           = 0
+state->ode_rxn_view_freq      = 10000
+state->print_ode_concs        = 0
+state->adjust_steady_state    = 0
+state->print_output           = 2
+state->print_concs_or_counts  = 3
+state->use_bulk_water         = 1
+state->use_activities         = 1
+state->use_deq                = 1
+state->use_pseudoisomers      = 1
+state->use_metropolis         = 1
+state->use_regulation         = 0
+state->max_regs_per_rxn       = 4
+state->compute_sensitivities  = 0
+state->base_reaction          = 0
+state->ode_solver_choice      = 0
+state->delta_concs_choice     = 7
+state->ode_jacobian_choice    = 0
+state->ode_stop_norm          = 0
+state->ode_stop_rel           = 0
+state->ode_stop_style         = 0
+state->cvodes_rhs_choice      = 0
+state->cvodes_jtimes_choice   = 2
+state->cvodes_prec_choice     = 2
+state->cvodes_prec_fill       = 0
+cvodes_params->linear_multistep_method = 2
+cvodes_params->linear_solver_method    = 0
+cvodes_params->iterative_method        = 2
+cvodes_params->adams_q_max             = 12
+cvodes_params->bdf_q_max               = 5
+cvodes_params->max_ord                 = 5
+cvodes_params->mxsteps                 = 500
+cvodes_params->mxhnil                  = 10
+cvodes_params->use_stab_lim_det        = 0
+cvodes_params->maxnef                  = 7
+cvodes_params->maxcor                  = 3
+cvodes_params->maxncf                  = 10
+cvodes_params->maxl                    = 30
+cvodes_params->pretype                 = 0
+cvodes_params->gstype                  = 1
+cvodes_params->num_cvode_steps         = 100
+cvodes_params->reltol                  = 1.000000e-06
+cvodes_params->abstol                  = 1.000000e-10
+cvodes_params->hin                     = 0.000000e+00
+cvodes_params->hmin                    = 0.000000e+00
+cvodes_params->hmax                    = 1.000000e+01
+cvodes_params->nlscoef                 = 1.000000e-01
+cvodes_params->eplifac                 = 5.000000e-02
+state->ideal_gas_r            = 8.314000e-03
+state->temp_kelvin            = 2.981500e+02
+state->ph                     = 7.000000e+00
+state->ionic_strength         = 1.500000e-01
+state->default_volume         = 1.000000e-15
+state->flux_scaling           = 0.000000e+00
+state->kf_base_reaction       = 1.000000e+00
+state->ode_t_final            = 1.000000e+08
+state->min_conc               = 0.000000e+00
+
+Warmup_step rxn_choice forward_likelihood reverse_likelihood
+ode23tb: Error integration tolerance not met, t= 4.496526e+05, hmin = 1.597487e-09
+
+Record_step rxn_choice forward_likelihood reverse_likelihood
